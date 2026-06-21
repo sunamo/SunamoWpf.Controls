@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VLIcE4SPGaY=",
+  "dgSpecHash": "4qIhaxGpzY0=",
   "success": true,
-  "projectFilePath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Controls\\SunamoWpf.Controls\\SunamoWpf.Controls.csproj",
+  "projectFilePath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Controls\\SunamoWpf.Controls\\SunamoWpf.Controls.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aktiv\\.nuget\\packages\\avalonedit\\6.3.1.120\\avalonedit.6.3.1.120.nupkg.sha512",
     "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -65,9 +65,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Controls\\SunamoWpf.Controls\\SunamoWpf.Controls.csproj",
+      "projectPath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Controls\\SunamoWpf.Controls\\SunamoWpf.Controls.csproj",
       "warningLevel": 1,
-      "filePath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Controls\\SunamoWpf.Controls\\SunamoWpf.Controls.csproj",
+      "filePath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Controls\\SunamoWpf.Controls\\SunamoWpf.Controls.csproj",
       "libraryId": "Microsoft.CSharp",
       "targetGraphs": [
         "net10.0-windows7.0"
