@@ -44,6 +44,6 @@
     <ProjectReference Include="..\..\SunamoWpf.ToggleSwitch\SunamoWpf.ToggleSwitch\SunamoWpf.ToggleSwitch.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Controls\Controls\DropDownButtonDictionary.xaml" />
+    <Resource Include="Controls\DropDownButtonDictionary.xaml" />
   </ItemGroup>
 </Project>

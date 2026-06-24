@@ -2026,7 +2026,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.AwesomeFont.dll": {}
@@ -2038,11 +2038,11 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Converters/26.2.7.2": {
+      "SunamoWpf.Converters/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.Converters.dll": {}
@@ -2054,13 +2054,13 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Core/26.2.7.2": {
+      "SunamoWpf.Core/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
           "Microsoft.Windows.Compatibility": "10.0.8",
-          "SunamoWpf.SunamoUtils": "26.2.7.2",
+          "SunamoWpf.SunamoUtils": "26.6.21.1",
           "System.Management": "10.0.8"
         },
         "compile": {
@@ -2073,13 +2073,13 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Data/26.2.7.2": {
+      "SunamoWpf.Data/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.Windows.Compatibility": "10.0.8",
-          "SunamoWpf.Converters": "26.2.7.2",
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Converters": "26.6.21.1",
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.Data.dll": {}
@@ -2091,11 +2091,11 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Extensions/26.2.7.2": {
+      "SunamoWpf.Extensions/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.Extensions.dll": {}
@@ -2107,7 +2107,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Helpers/26.2.7.2": {
+      "SunamoWpf.Helpers/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -2116,11 +2116,11 @@
           "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.Windows.Compatibility": "10.0.8",
           "SunamoWpf.AwesomeFont": "26.6.21.1",
-          "SunamoWpf.Core": "26.2.7.2",
-          "SunamoWpf.Data": "26.2.7.2",
-          "SunamoWpf.Extensions": "26.2.7.2",
-          "SunamoWpf.Logging": "26.2.7.2",
-          "SunamoWpf.SunamoUtils": "26.2.7.2",
+          "SunamoWpf.Core": "26.6.21.1",
+          "SunamoWpf.Data": "26.6.21.1",
+          "SunamoWpf.Extensions": "26.6.21.1",
+          "SunamoWpf.Logging": "26.6.21.1",
+          "SunamoWpf.SunamoUtils": "26.6.21.1",
           "System.Management": "10.0.8",
           "TextCopy": "6.2.1"
         },
@@ -2134,13 +2134,13 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Logging/26.2.7.2": {
+      "SunamoWpf.Logging/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
-          "SunamoWpf.Core": "26.2.7.2",
-          "SunamoWpf.SunamoUtils": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1",
+          "SunamoWpf.SunamoUtils": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.Logging.dll": {}
@@ -2152,7 +2152,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.SunamoUtils/26.2.7.2": {
+      "SunamoWpf.SunamoUtils/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -2169,12 +2169,12 @@
           "bin/placeholder/SunamoWpf.SunamoUtils.dll": {}
         }
       },
-      "SunamoWpf.ToggleSwitch/26.2.7.2": {
+      "SunamoWpf.ToggleSwitch/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SunamoWpf.Converters": "26.2.7.2",
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Converters": "26.6.21.1",
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.ToggleSwitch.dll": {}
@@ -3924,42 +3924,42 @@
       "path": "../../SunamoWpf.AwesomeFont/SunamoWpf.AwesomeFont/SunamoWpf.AwesomeFont.csproj",
       "msbuildProject": "../../SunamoWpf.AwesomeFont/SunamoWpf.AwesomeFont/SunamoWpf.AwesomeFont.csproj"
     },
-    "SunamoWpf.Converters/26.2.7.2": {
+    "SunamoWpf.Converters/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Converters/SunamoWpf.Converters/SunamoWpf.Converters.csproj",
       "msbuildProject": "../../SunamoWpf.Converters/SunamoWpf.Converters/SunamoWpf.Converters.csproj"
     },
-    "SunamoWpf.Core/26.2.7.2": {
+    "SunamoWpf.Core/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Core/SunamoWpf.Core/SunamoWpf.Core.csproj",
       "msbuildProject": "../../SunamoWpf.Core/SunamoWpf.Core/SunamoWpf.Core.csproj"
     },
-    "SunamoWpf.Data/26.2.7.2": {
+    "SunamoWpf.Data/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Data/SunamoWpf.Data/SunamoWpf.Data.csproj",
       "msbuildProject": "../../SunamoWpf.Data/SunamoWpf.Data/SunamoWpf.Data.csproj"
     },
-    "SunamoWpf.Extensions/26.2.7.2": {
+    "SunamoWpf.Extensions/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Extensions/SunamoWpf.Extensions/SunamoWpf.Extensions.csproj",
       "msbuildProject": "../../SunamoWpf.Extensions/SunamoWpf.Extensions/SunamoWpf.Extensions.csproj"
     },
-    "SunamoWpf.Helpers/26.2.7.2": {
+    "SunamoWpf.Helpers/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Helpers/SunamoWpf.Helpers/SunamoWpf.Helpers.csproj",
       "msbuildProject": "../../SunamoWpf.Helpers/SunamoWpf.Helpers/SunamoWpf.Helpers.csproj"
     },
-    "SunamoWpf.Logging/26.2.7.2": {
+    "SunamoWpf.Logging/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Logging/SunamoWpf.Logging/SunamoWpf.Logging.csproj",
       "msbuildProject": "../../SunamoWpf.Logging/SunamoWpf.Logging/SunamoWpf.Logging.csproj"
     },
-    "SunamoWpf.SunamoUtils/26.2.7.2": {
+    "SunamoWpf.SunamoUtils/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils.csproj",
       "msbuildProject": "../../SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils.csproj"
     },
-    "SunamoWpf.ToggleSwitch/26.2.7.2": {
+    "SunamoWpf.ToggleSwitch/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.ToggleSwitch/SunamoWpf.ToggleSwitch/SunamoWpf.ToggleSwitch.csproj",
       "msbuildProject": "../../SunamoWpf.ToggleSwitch/SunamoWpf.ToggleSwitch/SunamoWpf.ToggleSwitch.csproj"
@@ -3972,13 +3972,13 @@
       "Microsoft.Extensions.Logging >= 10.0.8",
       "Microsoft.Windows.Compatibility >= 10.0.8",
       "SunamoWpf.AwesomeFont >= 26.6.21.1",
-      "SunamoWpf.Converters >= 26.2.7.2",
-      "SunamoWpf.Core >= 26.2.7.2",
-      "SunamoWpf.Data >= 26.2.7.2",
-      "SunamoWpf.Extensions >= 26.2.7.2",
-      "SunamoWpf.Helpers >= 26.2.7.2",
-      "SunamoWpf.Logging >= 26.2.7.2",
-      "SunamoWpf.ToggleSwitch >= 26.2.7.2",
+      "SunamoWpf.Converters >= 26.6.21.1",
+      "SunamoWpf.Core >= 26.6.21.1",
+      "SunamoWpf.Data >= 26.6.21.1",
+      "SunamoWpf.Extensions >= 26.6.21.1",
+      "SunamoWpf.Helpers >= 26.6.21.1",
+      "SunamoWpf.Logging >= 26.6.21.1",
+      "SunamoWpf.ToggleSwitch >= 26.6.21.1",
       "TextCopy >= 6.2.1"
     ]
   },
@@ -4044,6 +4044,9 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1701"
+        ],
         "warnAsError": [
           "NU1605"
         ]

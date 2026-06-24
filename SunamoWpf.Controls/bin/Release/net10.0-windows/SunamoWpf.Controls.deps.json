@@ -12,13 +12,13 @@
           "Microsoft.Extensions.Logging": "10.0.8",
           "Microsoft.Windows.Compatibility": "10.0.8",
           "SunamoWpf.AwesomeFont": "26.6.21.1",
-          "SunamoWpf.Converters": "26.2.7.2",
-          "SunamoWpf.Core": "26.2.7.2",
-          "SunamoWpf.Data": "26.2.7.2",
-          "SunamoWpf.Extensions": "26.2.7.2",
-          "SunamoWpf.Helpers": "26.2.7.2",
-          "SunamoWpf.Logging": "26.2.7.2",
-          "SunamoWpf.ToggleSwitch": "26.2.7.2",
+          "SunamoWpf.Converters": "26.6.21.1",
+          "SunamoWpf.Core": "26.6.21.1",
+          "SunamoWpf.Data": "26.6.21.1",
+          "SunamoWpf.Extensions": "26.6.21.1",
+          "SunamoWpf.Helpers": "26.6.21.1",
+          "SunamoWpf.Logging": "26.6.21.1",
+          "SunamoWpf.ToggleSwitch": "26.6.21.1",
           "TextCopy": "6.2.1"
         },
         "runtime": {
@@ -921,7 +921,7 @@
       },
       "SunamoWpf.AwesomeFont/26.6.21.1": {
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "runtime": {
           "SunamoWpf.AwesomeFont.dll": {
@@ -930,9 +930,9 @@
           }
         }
       },
-      "SunamoWpf.Converters/26.2.7.2": {
+      "SunamoWpf.Converters/26.6.21.1": {
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "runtime": {
           "SunamoWpf.Converters.dll": {
@@ -941,11 +941,11 @@
           }
         }
       },
-      "SunamoWpf.Core/26.2.7.2": {
+      "SunamoWpf.Core/26.6.21.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
           "Microsoft.Windows.Compatibility": "10.0.8",
-          "SunamoWpf.SunamoUtils": "26.2.7.2",
+          "SunamoWpf.SunamoUtils": "26.6.21.1",
           "System.Management": "10.0.8"
         },
         "runtime": {
@@ -955,11 +955,11 @@
           }
         }
       },
-      "SunamoWpf.Data/26.2.7.2": {
+      "SunamoWpf.Data/26.6.21.1": {
         "dependencies": {
           "Microsoft.Windows.Compatibility": "10.0.8",
-          "SunamoWpf.Converters": "26.2.7.2",
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Converters": "26.6.21.1",
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "runtime": {
           "SunamoWpf.Data.dll": {
@@ -968,9 +968,9 @@
           }
         }
       },
-      "SunamoWpf.Extensions/26.2.7.2": {
+      "SunamoWpf.Extensions/26.6.21.1": {
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "runtime": {
           "SunamoWpf.Extensions.dll": {
@@ -979,18 +979,18 @@
           }
         }
       },
-      "SunamoWpf.Helpers/26.2.7.2": {
+      "SunamoWpf.Helpers/26.6.21.1": {
         "dependencies": {
           "AvalonEdit": "6.3.1.120",
           "Microsoft.Extensions.Logging": "10.0.8",
           "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.Windows.Compatibility": "10.0.8",
           "SunamoWpf.AwesomeFont": "26.6.21.1",
-          "SunamoWpf.Core": "26.2.7.2",
-          "SunamoWpf.Data": "26.2.7.2",
-          "SunamoWpf.Extensions": "26.2.7.2",
-          "SunamoWpf.Logging": "26.2.7.2",
-          "SunamoWpf.SunamoUtils": "26.2.7.2",
+          "SunamoWpf.Core": "26.6.21.1",
+          "SunamoWpf.Data": "26.6.21.1",
+          "SunamoWpf.Extensions": "26.6.21.1",
+          "SunamoWpf.Logging": "26.6.21.1",
+          "SunamoWpf.SunamoUtils": "26.6.21.1",
           "System.Management": "10.0.8",
           "TextCopy": "6.2.1"
         },
@@ -1001,11 +1001,11 @@
           }
         }
       },
-      "SunamoWpf.Logging/26.2.7.2": {
+      "SunamoWpf.Logging/26.6.21.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
-          "SunamoWpf.Core": "26.2.7.2",
-          "SunamoWpf.SunamoUtils": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1",
+          "SunamoWpf.SunamoUtils": "26.6.21.1"
         },
         "runtime": {
           "SunamoWpf.Logging.dll": {
@@ -1014,7 +1014,7 @@
           }
         }
       },
-      "SunamoWpf.SunamoUtils/26.2.7.2": {
+      "SunamoWpf.SunamoUtils/26.6.21.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
           "Microsoft.Windows.Compatibility": "10.0.8",
@@ -1029,10 +1029,10 @@
           }
         }
       },
-      "SunamoWpf.ToggleSwitch/26.2.7.2": {
+      "SunamoWpf.ToggleSwitch/26.6.21.1": {
         "dependencies": {
-          "SunamoWpf.Converters": "26.2.7.2",
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Converters": "26.6.21.1",
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "runtime": {
           "SunamoWpf.ToggleSwitch.dll": {
@@ -1432,42 +1432,42 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.Converters/26.2.7.2": {
+    "SunamoWpf.Converters/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.Core/26.2.7.2": {
+    "SunamoWpf.Core/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.Data/26.2.7.2": {
+    "SunamoWpf.Data/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.Extensions/26.2.7.2": {
+    "SunamoWpf.Extensions/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.Helpers/26.2.7.2": {
+    "SunamoWpf.Helpers/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.Logging/26.2.7.2": {
+    "SunamoWpf.Logging/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.SunamoUtils/26.2.7.2": {
+    "SunamoWpf.SunamoUtils/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SunamoWpf.ToggleSwitch/26.2.7.2": {
+    "SunamoWpf.ToggleSwitch/26.6.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
