@@ -4,17 +4,17 @@
 library
 C#
 .cs
-E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Controls\SunamoWpf.Controls\obj\Debug\net10.0-windows\
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Controls\SunamoWpf.Controls\obj\Debug\net10.0-windows\
 SunamoWpf.Controls
 none
 false
-TRACE;ASYNC;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+;ASYNC;TRACE;ASYNC;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-381627826690
+381219054515
 
-84258178690
-257-847365151
-Controls\Buttons\DialogButtons.xaml;Controls\Buttons\ResultButtons.xaml;Controls\Collections\DeleteDuplicitiesFilesCheckBox.xaml;Controls\Collections\DeleteDuplicitiesFilesRadioButton.xaml;Controls\Collections\DeleteDuplicitiesFilesWrapper.xaml;Controls\Collections\LoggerUC.xaml;Controls\Collections\RadioButtonsList.xaml;Controls\Controls\TwoRadiosUC.xaml;Controls\Image\CyclingImageViewer.xaml;Controls\Input\ColorPicker.xaml;Controls\Input\InputTwoColumnsUC.xaml;Controls\Input\SelectFile.xaml;Controls\Input\SelectFolder.xaml;Controls\Input\SelectFolderAdvanced.xaml;Controls\Input\SelectManyFiles.xaml;Controls\Input\SelectMoreFolders.xaml;Controls\Input\SelectOneValue.xaml;Controls\Input\SelectTwoValuesUC.xaml;Controls\Input\SunamoLoginDialog.xaml;Controls\Input\SunamoPasswordBox.xaml;Controls\Input\UpDownNumeric.xaml;Controls\Mouse\InsertLetterAfterMouseDownUC.xaml;Controls\Result\FoundedFilesResults.xaml;Controls\Result\FoundedFilesResults2.xaml;Controls\Result\FoundedResultsUC.xaml;Controls\Result\FoundedResultUC.xaml;Controls\Result\NoResultsFound.xaml;Controls\Result\ShowCodeResultUC.xaml;Controls\Result\ShowTextResult.xaml;Controls\Text\CompareTwoIntegers.xaml;Controls\Text\MultiLineTextBlock.xaml;Controls\Text\SearchInUC.xaml;Controls\Text\SunamoPasswordBoxDictionary.xaml;Controls\Text\TextBoxOnlyNumbers.xaml;Controls\ToolBar\SelectImageFile.xaml;Controls\ToolBar\SelectImageFileAndMakeSingleColorTransparent.xaml;Controls\Visualization\FolderContentsTreeView.xaml;EnterOneValueUC.xaml;
+85-624781428
+257778248550
+Buttons\DialogButtons.xaml;Buttons\ResultButtons.xaml;Collections\DeleteDuplicitiesFilesCheckBox.xaml;Collections\DeleteDuplicitiesFilesRadioButton.xaml;Collections\DeleteDuplicitiesFilesWrapper.xaml;Collections\LoggerUC.xaml;Collections\RadioButtonsList.xaml;Controls\TwoRadiosUC.xaml;EnterOneValueUC.xaml;Image\CyclingImageViewer.xaml;Input\ColorPicker.xaml;Input\InputTwoColumnsUC.xaml;Input\SelectFile.xaml;Input\SelectFolder.xaml;Input\SelectFolderAdvanced.xaml;Input\SelectManyFiles.xaml;Input\SelectMoreFolders.xaml;Input\SelectOneValue.xaml;Input\SelectTwoValuesUC.xaml;Input\SunamoLoginDialog.xaml;Input\SunamoPasswordBox.xaml;Input\UpDownNumeric.xaml;Mouse\InsertLetterAfterMouseDownUC.xaml;Result\FoundedFilesResults.xaml;Result\FoundedFilesResults2.xaml;Result\FoundedResultsUC.xaml;Result\FoundedResultUC.xaml;Result\NoResultsFound.xaml;Result\ShowCodeResultUC.xaml;Result\ShowTextResult.xaml;Text\CompareTwoIntegers.xaml;Text\MultiLineTextBlock.xaml;Text\SearchInUC.xaml;Text\SunamoPasswordBoxDictionary.xaml;Text\TextBoxOnlyNumbers.xaml;ToolBar\SelectImageFile.xaml;ToolBar\SelectImageFileAndMakeSingleColorTransparent.xaml;Visualization\FolderContentsTreeView.xaml;
 
-False
+True
 
