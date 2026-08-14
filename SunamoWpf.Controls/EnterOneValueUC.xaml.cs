@@ -16,7 +16,7 @@ public partial class EnterOneValueUC : UserControl, IControlWithResultWpf, IUser
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -127,7 +127,6 @@ public partial class EnterOneValueUC : UserControl, IControlWithResultWpf, IUser
     }
     private void btnEnter_Click_1(object sender, RoutedEventArgs e)
     {
-        ButtonBase bb;
         if (AfterEnteredValue(fwElemements))
         {
             DialogResult = true;
@@ -154,7 +153,6 @@ public partial class EnterOneValueUC : UserControl, IControlWithResultWpf, IUser
     }
     private bool AfterEnteredValue(List<FrameworkElement> txtEnteredText)
     {
-        string methodName = "AfterEnteredValue";
         bool? previousValidate = true;
         bool allOk = true;
         // in txtEnteredText is only txtEnteredText
@@ -273,7 +271,6 @@ public partial class EnterOneValueUC : UserControl, IControlWithResultWpf, IUser
     {
     }
     public event VoidBoolNullable ChangeDialogResult;
-    public event TaskBoolNullable ChangeDialogResultAsync;
 }
 //    public List<SuMenuItem> SuMenuItems = new List<SuMenuItem>();
 //    public TextBox txtEnteredText = new TextBox();

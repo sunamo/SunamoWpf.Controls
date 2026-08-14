@@ -18,7 +18,7 @@ public partial class FoundedResultsUC : UserControl, ISelectedTWpf<string>//, IF
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

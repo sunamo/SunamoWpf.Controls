@@ -17,7 +17,7 @@ public partial class SelectMoreFolders : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

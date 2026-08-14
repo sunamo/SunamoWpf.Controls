@@ -15,7 +15,7 @@ public partial class SunamoPasswordBox : UserControl, IUserControlWithSizeChange
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

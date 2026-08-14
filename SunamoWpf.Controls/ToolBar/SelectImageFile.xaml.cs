@@ -16,7 +16,7 @@ public partial class SelectImageFile : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

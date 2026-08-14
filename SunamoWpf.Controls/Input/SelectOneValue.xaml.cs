@@ -20,7 +20,7 @@ public partial class SelectOneValue : UserControl, IControlWithResultWpf, IUserC
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

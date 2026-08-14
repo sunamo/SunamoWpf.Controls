@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net10.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
@@ -25,11 +25,11 @@
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
     <PackageReleaseNotes>y</PackageReleaseNotes>
+    <NoWarn>CS0649;CA1416;CS8625;CS8618;CS8600;CS8602;CS8604;CS8603;CS8601;CS8629;CS8714;CS8622;CS0108;CS8612;CS0618;CS8073</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AvalonEdit" Version="6.3.1.120" />
     <PackageReference Include="TextCopy" Version="6.2.1" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.8" />
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />
   </ItemGroup>

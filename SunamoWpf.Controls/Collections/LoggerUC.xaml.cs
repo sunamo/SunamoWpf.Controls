@@ -9,7 +9,7 @@ public partial class LoggerUC : UserControl, ISaveWithoutArgWpf
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

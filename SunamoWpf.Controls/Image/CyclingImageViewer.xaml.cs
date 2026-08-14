@@ -46,7 +46,7 @@ public partial class CyclingImageViewer : UserControl, IStatusBroadcasterAppendW
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

@@ -29,7 +29,7 @@ public partial class SelectManyFiles : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

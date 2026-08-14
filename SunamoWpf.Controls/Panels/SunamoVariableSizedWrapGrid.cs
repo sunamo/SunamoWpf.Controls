@@ -75,8 +75,9 @@ public class SunamoVariableSizedWrapGrid : StackPanel
                     bool zastavit = false;
                     for (int z = dexDalsihoSP; z < controls.Count; z++)
                     {
-                        for (int y = 0; y < controls[z + 1].Count; y++)
+                        if (controls[z + 1].Count > 0)
                         {
+                            int y = 0;
                             UIElement c = controls[dexDalsihoSP][y];
                             double d = GetWidthOfUIElement(c);
                             int odKterehoMusimOdebrat2 = -1;
@@ -97,7 +98,6 @@ public class SunamoVariableSizedWrapGrid : StackPanel
                                 controls.Remove(dexDalsihoSP);
                             }
                             zastavit = true;
-                            break;
                         }
                         if (zastavit)
                         {

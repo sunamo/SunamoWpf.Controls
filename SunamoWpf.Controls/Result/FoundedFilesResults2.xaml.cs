@@ -24,7 +24,7 @@ public partial class FoundedFilesResults2 : UserControl//, IFoundedFilesUC<Found
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -47,7 +47,6 @@ public partial class FoundedFilesResults2 : UserControl//, IFoundedFilesUC<Found
     public void AddFoundedFiles(List<string> foundedList)
     {
         HideTbNoResultsFound();
-        int i = 0;
         foreach (var item in foundedList)
         {
             AddFoundedFile(item);

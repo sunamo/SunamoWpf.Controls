@@ -9,7 +9,7 @@ public partial class CompareTwoIntegers : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

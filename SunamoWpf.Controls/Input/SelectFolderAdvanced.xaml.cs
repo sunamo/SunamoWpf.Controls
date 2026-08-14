@@ -19,7 +19,7 @@ public partial class SelectFolderAdvanced : UserControl, IControlWithResultWpf
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
