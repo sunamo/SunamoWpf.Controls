@@ -9,7 +9,7 @@ public partial class DialogButtons : UserControl, IControlWithResultWpf
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

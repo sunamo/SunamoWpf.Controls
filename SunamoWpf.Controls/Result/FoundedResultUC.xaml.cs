@@ -65,7 +65,7 @@ public partial class FoundedResultUC : UserControl//, IFoundedResultUC
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -85,7 +85,7 @@ public partial class FoundedResultUC : UserControl//, IFoundedResultUC
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

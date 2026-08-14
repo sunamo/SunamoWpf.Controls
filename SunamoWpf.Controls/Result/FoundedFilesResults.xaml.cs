@@ -110,7 +110,7 @@ public partial class FoundedFilesResults : UserControl /*, IFoundedFilesUC<Found
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

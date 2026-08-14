@@ -16,7 +16,7 @@ public partial class FolderContentsTreeView : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -126,7 +126,7 @@ public partial class FolderContentsTreeView : UserControl
                     }
                 }
             }
-            catch (Exception ex) { }
+            catch (Exception) { }
         }
     }
     #endregion

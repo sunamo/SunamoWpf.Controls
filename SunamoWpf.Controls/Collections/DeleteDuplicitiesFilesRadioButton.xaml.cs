@@ -15,7 +15,7 @@ public partial class DeleteDuplicitiesFilesRadioButton : UserControl, ISelectFro
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

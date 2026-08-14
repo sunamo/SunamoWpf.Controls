@@ -5,6 +5,7 @@ namespace SunamoWpf.Controls.Input;
 /// <summary>
 /// Interaction logic for LoginDialog.xaml
 /// </summary>
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public partial class LoginDialog : UserControl, IUserControlWithSizeChange
 {
     #region Rewrite to pure cs. With xaml is often problems without building
@@ -75,7 +76,6 @@ public partial class LoginDialog : UserControl, IUserControlWithSizeChange
     const string h = "h";
     const string l = "l";
     const string s = "s";
-    bool loginClicked = false;
     string iniCredSection = Translate.FromKey(XlfKeys.Cred);
     /// <summary>
     /// A1 = RandomHelper.RandomString(10)
@@ -89,7 +89,7 @@ public partial class LoginDialog : UserControl, IUserControlWithSizeChange
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -292,15 +292,6 @@ TF.ReadAllText(pSalt), this.txtHeslo.Password));
         }
         else //if (storageApplicationData != StorageApplicationData.NoWhere)
         {
-            // Musím nastavit loginClicked na true nebo false. false je znamení že musím hned zobrazovat v selling dialog
-            if (txtLogin.Text.Trim() != "" && txtHeslo.Password.Trim() != "")
-            {
-                loginClicked = true;
-            }
-            else
-            {
-                loginClicked = false;
-            }
         }
         DialogResult = true;
     }
@@ -346,8 +337,6 @@ btnForgetLoginAndPassword_ClickAsync(object sender, RoutedEventArgs e)
         {
             ThrowEx.NotImplementedCase(storageApplicationData);
         }
-        // For sure set loginClicked for default value
-        loginClicked = false;
     }
     private void btnForgetPassword_Click(object sender, RoutedEventArgs e)
     {
@@ -385,8 +374,6 @@ btnForgetPassword_ClickAsync(object sender, RoutedEventArgs e)
         {
             ThrowEx.NotImplementedCase(storageApplicationData);
         }
-        // For sure set loginClicked for default value
-        loginClicked = false;
     }
     //public void Accept(object input)
     //{

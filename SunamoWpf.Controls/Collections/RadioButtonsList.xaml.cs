@@ -22,7 +22,7 @@ public partial class RadioButtonsList : UserControl, IUserControl, IControlWithR
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

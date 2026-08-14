@@ -29,7 +29,7 @@ public partial class InputTwoColumnsUC : UserControl, IControlWithResultWpf, ICo
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -67,7 +67,6 @@ public partial class InputTwoColumnsUC : UserControl, IControlWithResultWpf, ICo
     }
     private void DialogButtons_ChangeDialogResult(bool? b)
     {
-        var methodName = "DialogButtons_ChangeDialogResult: ";
         if (b.HasValue)
         {
             if (!b.Value)

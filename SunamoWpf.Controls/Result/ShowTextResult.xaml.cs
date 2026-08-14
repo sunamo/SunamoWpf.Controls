@@ -12,7 +12,7 @@ public partial class ShowTextResult : UserControl, IUserControl, IControlWithRes
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

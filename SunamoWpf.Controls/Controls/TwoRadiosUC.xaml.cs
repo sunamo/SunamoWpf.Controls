@@ -41,7 +41,7 @@ public partial class TwoRadiosUC
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

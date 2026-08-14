@@ -10,7 +10,7 @@ public partial class DeleteDuplicitiesFilesCheckBox : UserControl, ISelectFromMa
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

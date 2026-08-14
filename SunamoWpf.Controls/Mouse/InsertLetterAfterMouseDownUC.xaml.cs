@@ -24,7 +24,7 @@ public partial class InsertLetterAfterMouseDownUC : UserControl, IControlWithRes
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
