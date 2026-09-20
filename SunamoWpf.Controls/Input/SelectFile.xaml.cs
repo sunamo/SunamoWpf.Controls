@@ -29,7 +29,7 @@ public partial class SelectFile : UserControl
 
     private void SelectFile_Loaded(object sender, RoutedEventArgs e)
     {
-        SetAwesomeIcons().RunSynchronously();
+        _ = SetAwesomeIcons(); // async Task nelze RunSynchronously (InvalidOperationException); ikony se nastavi pres Dispatcher.InvokeAsync
     }
 
     private void BtnRemoveFile_Click(object sender, RoutedEventArgs e)
