@@ -49,7 +49,7 @@ public partial class SelectManyFiles : UserControl
 
     private void SelectMoreFiles_Loaded(object sender, RoutedEventArgs e)
     {
-        SetAwesomeIcons().RunSynchronously();
+        _ = SetAwesomeIcons(); // async Task nelze RunSynchronously (InvalidOperationException); ikony se nastavi pres Dispatcher.InvokeAsync
 
         AddFile(string.Empty);
     }

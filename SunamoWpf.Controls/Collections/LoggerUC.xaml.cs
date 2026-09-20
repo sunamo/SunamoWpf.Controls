@@ -19,8 +19,8 @@ public partial class LoggerUC : UserControl, ISaveWithoutArgWpf
     }
     private void LoggerUC_Loaded(object sender, RoutedEventArgs e)
     {
-        AwesomeFontControls.SetAwesomeFontSymbol(BtnClear, "\uf00d").RunSynchronously();
-        AwesomeFontControls.SetAwesomeFontSymbol(BtnCopyToClipboard, "\uf0c5").RunSynchronously();
+        _ = AwesomeFontControls.SetAwesomeFontSymbol(BtnClear, "\uf00d"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
+        _ = AwesomeFontControls.SetAwesomeFontSymbol(BtnCopyToClipboard, "\uf0c5"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
     }
     private void BtnClear_Click(object o, RoutedEventArgs e)
     {
@@ -46,7 +46,10 @@ public partial class LoggerUC : UserControl, ISaveWithoutArgWpf
     {
         //fileToSave = AppData.ci.GetFile(AppFolders.Logs, this.Name + AllExtensions.txt);
         this.fileToSave = fileToSave;
-        TF.WriteAllLines(fileToSave, Lines()).RunSynchronously();
+        var lines = Lines();
+
+        // synchronni rozhrani ISaveWithoutArgWpf: Task.Run, aby await uvnitr TF nedeadlockoval UI vlakno
+        Task.Run(() => TF.WriteAllLines(fileToSave, lines)).GetAwaiter().GetResult();
     }
 }
 #endregion
