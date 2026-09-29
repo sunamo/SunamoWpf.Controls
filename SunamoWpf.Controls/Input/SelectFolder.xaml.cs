@@ -28,7 +28,7 @@ public partial class SelectFolder : UserControl
     }
     private void SelectFolder_Loaded(object sender, RoutedEventArgs e)
     {
-        _ = AwesomeFontControls.SetAwesomeFontSymbol(btnRemoveFolder, "\uf00d"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
+        AwesomeFontControls.SetAwesomeFontSymbol(btnRemoveFolder, "\uf00d"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
     }
     private void CbDefaultFolders_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {

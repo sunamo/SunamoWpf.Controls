@@ -29,7 +29,7 @@ public partial class SelectMoreFolders : UserControl
 
     private void SelectMoreFolders_Loaded(object sender, RoutedEventArgs e)
     {
-        _ = SetAwesomeIcons(); // async Task nelze RunSynchronously (InvalidOperationException); ikony se nastavi pres Dispatcher.InvokeAsync
+        SetAwesomeIcons(); // async Task nelze RunSynchronously (InvalidOperationException); ikony se nastavi pres Dispatcher.InvokeAsync
 
         AddFolder(string.Empty);
     }

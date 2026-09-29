@@ -19,8 +19,8 @@ public partial class LoggerUC : UserControl, ISaveWithoutArgWpf
     }
     private void LoggerUC_Loaded(object sender, RoutedEventArgs e)
     {
-        _ = AwesomeFontControls.SetAwesomeFontSymbol(BtnClear, "\uf00d"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
-        _ = AwesomeFontControls.SetAwesomeFontSymbol(BtnCopyToClipboard, "\uf0c5"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
+        AwesomeFontControls.SetAwesomeFontSymbol(BtnClear, "\uf00d"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
+        AwesomeFontControls.SetAwesomeFontSymbol(BtnCopyToClipboard, "\uf0c5"); // async Task nelze RunSynchronously (InvalidOperationException); symbol se nastavi pres Dispatcher.InvokeAsync
     }
     private void BtnClear_Click(object o, RoutedEventArgs e)
     {
