@@ -1,4 +1,4 @@
-namespace SunamoWpf.Helpers.Controls;
+namespace SunamoWpf.Controls.Helpers.Controls;
 
 /// <summary>
 /// Třída s generickým typem je SuMenuItemWithSubitemsHelperT

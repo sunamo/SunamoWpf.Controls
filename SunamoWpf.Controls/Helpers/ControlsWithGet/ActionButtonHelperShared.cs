@@ -1,4 +1,4 @@
-namespace SunamoWpf.Helpers.ControlsWithGet;
+namespace SunamoWpf.Controls.Helpers.ControlsWithGet;
 
 public partial class ActionButtonHelper{ 
 /// <summary>

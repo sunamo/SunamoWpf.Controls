@@ -1,4 +1,4 @@
-namespace SunamoWpf.Helpers.BaseControls;
+namespace SunamoWpf.Controls.Helpers.BaseControls;
 
 public class ItemsControlHelper
 {
