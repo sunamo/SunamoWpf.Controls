@@ -1,4 +1,4 @@
-namespace SunamoWpf;
+namespace SunamoWpf.Controls;
 
 /// <summary>
 /// Padding - chb,tb

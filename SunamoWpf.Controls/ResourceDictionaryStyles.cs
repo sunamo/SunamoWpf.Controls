@@ -1,4 +1,4 @@
-namespace SunamoWpf;
+namespace SunamoWpf.Controls;
 
 public partial class ResourceDictionaryStyles
 {

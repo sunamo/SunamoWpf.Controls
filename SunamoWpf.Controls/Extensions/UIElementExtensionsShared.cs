@@ -1,4 +1,4 @@
-namespace SunamoWpf.Extensions;
+namespace SunamoWpf.Controls.Extensions;
 
 public static partial class UIElementExtensions
 {

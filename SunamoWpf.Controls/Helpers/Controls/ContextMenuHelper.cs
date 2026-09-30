@@ -1,4 +1,4 @@
-namespace SunamoWpf.Helpers.Controls;
+namespace SunamoWpf.Controls.Helpers.Controls;
 
 public class ContextMenuHelper
 {

@@ -1,4 +1,4 @@
-namespace SunamoWpf.Helpers;
+namespace SunamoWpf.Controls.Helpers;
 
 public partial class CheckBoxDataHelper
 {
