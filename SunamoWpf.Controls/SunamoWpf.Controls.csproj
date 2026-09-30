@@ -4,8 +4,7 @@
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
-    <Description>WPF controls extracted from SunamoWpf</Description>
+    <Description>Merged into SunamoWpf.Core (flat packages, no cross-package references)</Description>
     <Version>26.9.30.4</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
@@ -25,25 +24,5 @@
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
     <PackageReleaseNotes>Namespace typu odpovida strukture slozek (SunamoWpf.Controls.*)</PackageReleaseNotes>
-    <NoWarn>CS0649;CA1416;CS8625;CS8618;CS8600;CS8602;CS8604;CS8603;CS8601;CS8629;CS8714;CS8622;CS0108;CS8612;CS0618;CS8073</NoWarn>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="AvalonEdit" Version="6.3.1.120" />
-    <PackageReference Include="TextCopy" Version="6.2.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.8" />
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Core\SunamoWpf.Core\SunamoWpf.Core.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Converters\SunamoWpf.Converters\SunamoWpf.Converters.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Data\SunamoWpf.Data\SunamoWpf.Data.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Extensions\SunamoWpf.Extensions\SunamoWpf.Extensions.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Helpers\SunamoWpf.Helpers\SunamoWpf.Helpers.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Logging\SunamoWpf.Logging\SunamoWpf.Logging.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.ToggleSwitch\SunamoWpf.ToggleSwitch\SunamoWpf.ToggleSwitch.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Controls\DropDownButtonDictionary.xaml" />
-  </ItemGroup>
 </Project>
