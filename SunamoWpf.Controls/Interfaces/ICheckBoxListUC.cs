@@ -1,4 +1,4 @@
-namespace SunamoWpf.Interfaces;
+namespace SunamoWpf.Controls.Interfaces;
 
 public interface ICheckBoxListUC
 {
